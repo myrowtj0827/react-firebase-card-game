@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "interface-name": false,
+
+    // Want to group as I see fit, not alphabetically
+    "ordered-imports": false,
+
+    // useCallback react hook solves performance issue
+    "jsx-no-lambda": false,
+
+    // conflicts with convention that render() method is at the bottom
+    "member-ordering": false,
+
+    // sometimes its more natural group keys in not alphabet order
+    "object-literal-sort-keys": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "serviceWorker.ts"
+    ]
+  }
+}

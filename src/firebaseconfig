@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAoVqQKxkU6XjuQXqtqAwtI_sWNW1uHOHE",
+    authDomain: "cardgame-0817.firebaseapp.com",
+    databaseURL: "https://cardgame-0817.firebaseio.com",
+    projectId: "cardgame-0817",
+    storageBucket: "cardgame-0817.appspot.com",
+    messagingSenderId: "927736988243",
+    appId: "1:927736988243:web:d157d7fcf1a68b06b0bca6",
+    measurementId: "G-N2KZR2Q9QB"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
